@@ -6,7 +6,7 @@ import cardImg3 from '../assets/cardimg3.jpg';
 
 const Main = () => {
   return (
-    <div className="bg-[#F3EFEA] min-h-screen flex items-center">
+    <div className="bg-[#F3EFEA] min-h-auto flex items-center">
       <section className="w-[90%] max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between px-4 md:px-8 pt-6 md:pt-6 h-auto lg:h-screen">
         
         {/* Left card */}

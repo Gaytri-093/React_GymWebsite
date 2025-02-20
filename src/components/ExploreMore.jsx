@@ -6,7 +6,7 @@ import TrainerImg4 from "../assets/trainer4.jpg";
 
 const ExploreMore = () => {
   return (
-    <div className="bg-[#F3EFEA] min-h-screen flex flex-col items-center px-4 sm:px-8 md:px-12 pt-6 pb-4">
+    <div className="bg-[#F3EFEA] min-h-auto flex flex-col items-center px-4 sm:px-8 md:px-12 pt-6 pb-4">
       
       {/* Container */}
       <div className="w-[95%] max-w-6xl mx-auto">

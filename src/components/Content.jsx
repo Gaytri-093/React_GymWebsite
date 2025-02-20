@@ -4,7 +4,7 @@ import cardImg from "../assets/CardImg.jpg";
 const Content = () => {
   return (
     <>
-      <div className="bg-[#F3EFEA] min-h-screen flex flex-col items-center py-6 sm:py-8">
+      <div className="bg-[#F3EFEA] min-h-auto flex flex-col items-center py-6 sm:py-8">
         
         {/* Categories */}
         <div className="w-full bg-[#CD412E] text-white text-center py-3 mt-5 sm:py-4 font-bold flex flex-wrap justify-center gap-3 sm:gap-6 uppercase text-xs sm:text-sm md:text-md lg:text-lg">

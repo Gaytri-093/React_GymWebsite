@@ -10,7 +10,7 @@ import TrainerImg from "../assets/Trainer.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#FAF8F6] py-12 px-6 md:px-16">
+    <div className="bg-[#FAF8F6] pb-12 pt-0 px-6 md:px-16">
       {/* Header*/}
       <div className="w-[85%] mx-auto flex flex-col md:flex-row items-center gap-6 px-4 md:px-12">
         

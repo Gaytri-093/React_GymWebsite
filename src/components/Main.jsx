@@ -47,9 +47,9 @@ const Main = () => {
           {/* Stats*/}
           <div className="mt-6 w-full">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold">120+ Coaches</div>
-              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold">5250+ Members</div>
-              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold">20+ Programs</div>
+              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold"><span className="text-[#CD412E]">120+</span> <br />Coaches</div>
+              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold"><span className="text-[#CD412E]">5250+</span> <br /> Members</div>
+              <div className="bg-white text-black p-2 text-center rounded-lg shadow-md text-xs md:text-sm font-bold"><span className="text-[#CD412E]">20+</span> <br /> Programs</div>
             </div>
           </div>
 

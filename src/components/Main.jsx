@@ -34,11 +34,11 @@ const Main = () => {
               <div key={index} className="relative flex justify-center items-center rounded-lg overflow-hidden">
                 
                 <div
-                  className="absolute -left-[14px] top-1/2 -translate-y-1/2 -rotate-20 bg-white text-black px-4 py-1 text-xs md:text-sm font-bold shadow-md w-20 text-center"
-                  style={{ clipPath: 'polygon(100% 10%, 100% 100%, 10% 85%, 10% 15%)' }}
-                >
-                  {item.label}
-                </div>
+  className="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 -rotate-10 bg-white text-black px-4 py-1 text-xs md:text-sm font-bold shadow-md w-24 text-center"
+  style={{ clipPath: 'polygon(100% 10%, 100% 100%, 10% 85%, 10% 15%)' }}
+>
+  {item.label}
+</div>
                 <img src={item.img} alt={item.label} className="rounded-lg w-44 h-28 md:w-56 md:h-36" />
               </div>
             ))}
